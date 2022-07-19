@@ -20,7 +20,7 @@ public class App {
         HttpResponse<String> response = cliente.send(request, BodyHandlers.ofString());
         String body = response.body();
 
-        //extrair somente os dados que forem interessantes
+        //extrair somente os dados que forem interessantes .
         JsonParser jsonParser = new JsonParser();
         List<Map<String, String>> listaDeFilmes = jsonParser.parse(body);
 
