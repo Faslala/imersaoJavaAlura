@@ -38,6 +38,4 @@ public class JsonParser {
         return dados;
     }
 
-
 }
-
